@@ -10,7 +10,9 @@
   <p align="center">
     ATM simulator program developed in Java, with a modern user interface.
     <br />
-    ![wakatime](https://wakatime.com/badge/user/7d6d4557-a99a-4f61-8a63-7b4f287364a2/project/b627fb28-c3be-4f12-9b97-31099ad51853.svg)(https://wakatime.com/badge/user/7d6d4557-a99a-4f61-8a63-7b4f287364a2/project/b627fb28-c3be-4f12-9b97-31099ad51853)
+
+[![wakatime](https://wakatime.com/badge/user/7d6d4557-a99a-4f61-8a63-7b4f287364a2/project/b627fb28-c3be-4f12-9b97-31099ad51853.svg)](https://wakatime.com/badge/user/7d6d4557-a99a-4f61-8a63-7b4f287364a2/project/b627fb28-c3be-4f12-9b97-31099ad51853)
+
     <br />
     <br />
     <a href="https://github.com/Amin-Norouzi/Advanced-Java-ATM#about-the-project">View Demo</a>
@@ -18,6 +20,7 @@
     <a href="https://github.com/Amin-Norouzi/Advanced-Java-ATM/issues">Report Bug</a>
     ·
     <a href="https://github.com/Amin-Norouzi/Advanced-Java-ATM/issues">Request Feature</a>
+
   </p>
 </div>
 
@@ -26,7 +29,9 @@
 ## About The Project
 
 <div align="center">
-![Demo gif](https://github.com/Amin-Norouzi/Advanced-Java-ATM/blob/main/assets/demo.gif)
+
+![Demo gif](https://github.com/Amin-Norouzi/Advanced-Java-ATM/blob/main/assets/demo.gif)height="80">
+
 </div>
 
 This project was to make an automated teller machine with a modern-looking user interface where users can create an account by entering their full name, username, email, and password. Then if the user information is valid, the program automatically generates a card and shows it to the user.

@@ -1,0 +1,6 @@
+
+K
+java:S2140>")Use "java.util.Random.nextInt()" instead.(Õì¸«ûÿÿÿÿ8”¦÷ÏÙ/
+y
+java:S2142^"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(‚¦¡ûûÿÿÿÿ
+J	java:S108^")Either remove or fill this block of code.(‚¦¡ûûÿÿÿÿ8„¢ÕãÙ/

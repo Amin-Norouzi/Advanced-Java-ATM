@@ -1,0 +1,65 @@
+.root {
+    -fx-background-color: transparent;
+    -fx-background-image: url('/images/Splash-Background.png');
+    -fx-background-size: cover;
+    -fx-font-family: "Open Sans SemiBold";
+    -fx-font-size: 12px;
+}
+
+.label {
+    -fx-text-fill: #FFFFFF;
+}
+
+#subLabel {
+    -fx-font-family: "Open Sans bold";
+    -fx-font-size: 16px;
+    -fx-text-fill: rgba(255, 255, 255, 0.5);
+}
+
+#versionLabel {
+    -fx-font-family: "Open Sans ExtraBold";
+    -fx-font-size: 16px;
+}
+
+#headerLabel {
+    -fx-font-family: "Open Sans ExtraBold";
+    -fx-font-size: 32px;
+}
+
+.button {
+    -fx-animated: none;
+    -fx-effect: none;
+    -fx-background-radius: 6px;
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: rgba(0, 0, 0, 0.8);
+}
+
+.button:hover {
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.4), 25, 0, 0, 5);
+}
+
+.button:pressed {
+    -fx-effect: none;
+}
+
+#errorLabel {
+    -fx-text-fill: #FF453A;
+}
+
+.progress-bar {
+    -fx-accent: #FFFFFF;
+}
+
+.progress-bar .bar {
+    -fx-padding: 1px;
+    -fx-background-insets: 0;
+    -fx-background-radius: 50px;
+}
+
+.progress-bar > .track {
+    -fx-border-radius: 0;
+    -fx-background-radius:  50px;
+    -fx-text-box-border: transparent;
+    -fx-control-inner-background: transparent;
+    -fx-background-color: rgba(255, 255, 255, 0.11);
+}

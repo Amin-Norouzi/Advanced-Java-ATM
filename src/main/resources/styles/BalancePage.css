@@ -1,0 +1,37 @@
+.root {
+    -fx-background-color: #FFFFFF;
+    -fx-font-family: "Open Sans SemiBold";
+    -fx-font-size: 12px;
+}
+
+.label {
+    -fx-text-fill: rgba(0, 0, 0, 0.8);
+}
+
+#headerLabel {
+    -fx-font-family: "Open Sans Bold";
+    -fx-font-size: 18px;
+}
+
+#balanceLabel {
+    -fx-text-fill: #007AFF;
+    -fx-font-family: "Open Sans Bold";
+    -fx-font-size: 64px;
+}
+
+#backButton {
+    -fx-animated: none;
+    -fx-effect: none;
+    -fx-background-radius: 6px;
+    -fx-background-color: rgba(0, 0, 0, 0.11);
+    -fx-text-fill: rgba(0, 0, 0, 0.8)
+}
+
+#backButton:hover {
+    -fx-background-color: #E3E3E3;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 25, 0, 0, 5);
+}
+
+#backButton:pressed {
+    -fx-effect: none;
+}

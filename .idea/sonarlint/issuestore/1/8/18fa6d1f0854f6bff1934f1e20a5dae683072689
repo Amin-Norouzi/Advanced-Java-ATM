@@ -1,0 +1,9 @@
+
+X
+java:S1128"BRemove this unused import 'com.aminnorouzi.atm.model.Transaction'.(”ğ‚µ
+K
+java:S1128"5Remove this unused import 'javafx.stage.FileChooser'.(–¹ë
+C
+java:S1068"(Remove this unused "user" private field.(’Ø¾ıÿÿÿÿ
+g
+java:S2095*"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(Ê¹‰©øÿÿÿÿ

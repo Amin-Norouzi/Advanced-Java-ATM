@@ -1,0 +1,16 @@
+
+N
+java:S1117D"8Rename "user" which hides the field declared at line 19.(Ş„şŒ
+N
+java:S1117`"8Rename "user" which hides the field declared at line 19.(Ş„şŒ
+V
+java:S1128";Remove this unused import 'com.aminnorouzi.atm.model.Card'.(ÚµâÆûÿÿÿÿ
+X
+java:S1128"BRemove this unused import 'com.aminnorouzi.atm.model.Transaction'.(”ğ‚µ
+Z
+java:S1128
+"?Remove this unused import 'com.aminnorouzi.atm.util.TextUtils'.(ÁÂ’Ûıÿÿÿÿ
+G
+java:S1128"1Remove this unused import 'java.math.BigDecimal'.(êêŠ
+F
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ

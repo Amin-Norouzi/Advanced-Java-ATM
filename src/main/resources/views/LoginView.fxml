@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.aminnorouzi.atm.controller.LoginController">
+    <center>
+
+        <VBox alignment="CENTER" fillWidth="false" prefWidth="100.0" spacing="20.0" BorderPane.alignment="CENTER">
+            <children>
+                <HBox alignment="CENTER_LEFT" maxWidth="-Infinity" prefWidth="250.0">
+                    <children>
+                        <Label fx:id="headerLabel" text="Login">
+                            <HBox.margin>
+                                <Insets/>
+                            </HBox.margin>
+                        </Label>
+                    </children>
+                    <VBox.margin>
+                        <Insets bottom="10.0"/>
+                    </VBox.margin>
+                </HBox>
+                <TextField fx:id="usernameField" focusTraversable="false" maxHeight="-Infinity" maxWidth="-Infinity"
+                           prefHeight="40.0" prefWidth="250.0" promptText="Username"/>
+                <PasswordField fx:id="passwordField" focusTraversable="false" maxHeight="-Infinity" maxWidth="-Infinity"
+                               prefHeight="40.0" prefWidth="250.0" promptText="Password"/>
+                <HBox alignment="CENTER_RIGHT" prefWidth="250.0">
+                    <children>
+                        <Label fx:id="forgotPasswordLabel" onMouseClicked="#handleForgotPassword"
+                               text="Forgot password?" textFill="#007bff"/>
+                    </children>
+                    <VBox.margin>
+                        <Insets top="-5.0"/>
+                    </VBox.margin>
+                </HBox>
+                <Button fx:id="loginButton" defaultButton="true" maxHeight="-Infinity" maxWidth="-Infinity"
+                        mnemonicParsing="false" onAction="#handleLogin" prefHeight="28.0" prefWidth="250.0"
+                        text="Login">
+                    <VBox.margin>
+                        <Insets top="10.0"/>
+                    </VBox.margin>
+                </Button>
+                <HBox alignment="CENTER" prefWidth="250.0" spacing="5.0">
+                    <children>
+                        <Label text="Don't have an account yet?">
+                            <HBox.margin>
+                                <Insets/>
+                            </HBox.margin>
+                        </Label>
+                        <Label fx:id="signUpLabel" onMouseClicked="#handleSignUp" text="Sign up" textFill="#007bff"/>
+                    </children>
+                    <VBox.margin>
+                        <Insets top="-5.0"/>
+                    </VBox.margin>
+                </HBox>
+            </children>
+            <BorderPane.margin>
+                <Insets/>
+            </BorderPane.margin>
+        </VBox>
+    </center>
+</BorderPane>

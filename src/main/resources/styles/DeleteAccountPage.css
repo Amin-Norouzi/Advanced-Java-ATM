@@ -1,0 +1,94 @@
+.root {
+    -fx-background-color: #FFFFFF;
+    -fx-font-family: "Open Sans SemiBold";
+    -fx-font-size: 12px;
+}
+
+.label {
+    -fx-text-fill: rgba(0, 0, 0, 0.8);
+}
+
+#headerLabel {
+    -fx-font-family: "Open Sans Bold";
+    -fx-font-size: 18px;
+}
+
+.text-field {
+    -fx-background-radius: 5px;
+    -fx-background-color: rgba(0, 0, 0, 0.05);
+    -fx-border-radius: 5px;
+    -fx-border-color: rgba(0, 0, 0, 0.06);
+    -fx-text-fill: rgba(0, 0, 0, 0.8);
+}
+
+.text-field:focused {
+    -fx-border-color: rgba(0, 0, 0, 0.5);
+}
+
+.password-field {
+    -fx-background-radius: 5px;
+    -fx-background-color: rgba(0, 0, 0, 0.05);
+    -fx-border-radius: 5px;
+    -fx-border-color: rgba(0, 0, 0, 0.06);
+    -fx-text-fill: rgba(0, 0, 0, 0.8);
+}
+
+.password-field:focused {
+    -fx-border-color: rgba(0, 0, 0, 0.5);
+}
+
+#deleteButton {
+    -fx-animated: none;
+    -fx-effect: none;
+    -fx-background-radius: 6px;
+    -fx-background-color: #FF453A;
+    -fx-text-fill: #FFFFFF;
+}
+
+#deleteButton:hover {
+    -fx-effect: dropshadow(gaussian, rgba(255, 69, 58, 0.4), 25, 0, 0, 5);
+}
+
+#deleteButton:pressed {
+    -fx-effect: none;
+}
+
+#cancelButton {
+    -fx-animated: none;
+    -fx-effect: none;
+    -fx-background-radius: 6px;
+    -fx-background-color: rgba(0, 0, 0, 0.11);
+    -fx-text-fill: rgba(0, 0, 0, 0.8)
+}
+
+#cancelButton:hover {
+    -fx-background-color: #E3E3E3;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 25, 0, 0, 5);
+}
+
+#cancelButton:pressed {
+    -fx-effect: none;
+}
+
+.check-box {
+    -fx-text-fill: #8E8E93;
+}
+
+.check-box:selected {
+    -fx-text-fill: rgba(0, 0, 0, 0.8);
+}
+
+.check-box .box {
+    -fx-background-radius: 5px;
+    -fx-background-color: rgba(0, 0, 0, 0.05);
+    -fx-border-radius: 5px;
+    -fx-border-color: rgba(0, 0, 0, 0.06);
+}
+
+.check-box:selected .mark {
+    -fx-background-color: #FFFFFF;
+}
+
+.check-box:selected .box {
+    -fx-background-color: #007AFF;
+}

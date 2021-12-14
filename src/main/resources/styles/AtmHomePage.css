@@ -1,0 +1,105 @@
+.root {
+    -fx-background-color: #FFFFFF;
+    -fx-font-family: "Open Sans SemiBold";
+    -fx-font-size: 12px;
+}
+
+.label {
+    -fx-text-fill: rgba(0, 0, 0, 0.8);
+}
+
+#headerLabel {
+    -fx-font-family: "Open Sans Bold";
+    -fx-font-size: 18px;
+}
+
+.button {
+    -fx-animated: none;
+    -fx-effect: none;
+    -fx-background-radius: 10px;
+    -fx-background-color: transparent;
+    -fx-font-family: "Open Sans Bold";
+    -fx-text-fill: rgba(0, 0, 0, 0.8)
+}
+
+.button:hover {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 60, 0, 0, 5);
+    -fx-background-color: #FAFAF9;
+    -fx-text-fill: #007AFF;
+}
+
+.button:pressed {
+    -fx-effect: none;
+}
+
+#depositButton {
+    -fx-graphic: url('/images/Deposit-Black.png');
+}
+
+#depositButton:hover {
+    -fx-graphic: url('/images/Deposit-Blue.png');
+}
+
+#withdrawalButton {
+    -fx-graphic: url('/images/Withdrawal-Black.png');
+}
+
+#withdrawalButton:hover {
+    -fx-graphic: url('/images/Withdrawal-Blue.png');
+}
+
+#transferButton {
+    -fx-graphic: url('/images/Transfer-Black.png');
+}
+
+#transferButton:hover {
+    -fx-graphic: url('/images/Transfer-Blue.png');
+}
+
+#balanceButton {
+    -fx-graphic: url('/images/Balance-Black.png');
+}
+
+#balanceButton:hover {
+    -fx-graphic: url('/images/Balance-Blue.png');
+}
+
+#historyButton {
+    -fx-graphic: url('/images/History-Black.png');
+}
+
+#historyButton:hover {
+    -fx-graphic: url('/images/History-Blue.png');
+}
+
+#settingsButton {
+    -fx-graphic: url('/images/Settings-Black.png');
+}
+
+#settingsButton:hover {
+    -fx-graphic: url('/images/Settings-Blue.png');
+}
+
+#logoutButton {
+    -fx-animated: none;
+    -fx-effect: none;
+    -fx-background-radius: 6px;
+    -fx-background-color: #FF453A;
+    -fx-text-fill: #FFFFFF;
+}
+
+#logoutButton:hover {
+    -fx-effect: dropshadow(gaussian, rgba(255, 69, 58, 0.4), 25, 0, 0, 5);
+}
+
+#logoutButton:pressed {
+    -fx-effect: none;
+}
+
+#aboutLabel {
+    -fx-text-fill: #007AFF;
+}
+
+#aboutLabel:hover {
+    -fx-text-fill: rgba(0, 122, 255, 0.5);
+}

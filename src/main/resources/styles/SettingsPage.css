@@ -1,0 +1,181 @@
+.root {
+    -fx-background-color: #FFFFFF;
+    -fx-font-family: "Open Sans SemiBold";
+    -fx-font-size: 12px;
+}
+
+.label {
+    -fx-text-fill: #8E8E93;
+}
+
+#fullNameLabel {
+    -fx-font-family: "Open Sans Bold";
+    -fx-text-fill: rgba(0, 0, 0, 0.8);
+}
+
+#emailLabel {
+    -fx-text-fill: rgba(0, 0, 0, 0.8);
+}
+
+#cardNumberLabel {
+    -fx-text-fill: rgba(0, 0, 0, 0.8);
+}
+
+#headerLabel {
+    -fx-font-family: "Open Sans Bold";
+    -fx-text-fill: rgba(0, 0, 0, 0.8);
+    -fx-font-size: 18px;
+}
+
+#backButton {
+    -fx-animated: none;
+    -fx-effect: none;
+    -fx-background-radius: 6px;
+    -fx-background-color: rgba(0, 0, 0, 0.11);
+    -fx-text-fill: rgba(0, 0, 0, 0.8)
+}
+
+#backButton:hover {
+    -fx-background-color: #E3E3E3;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 25, 0, 0, 5);
+}
+
+#backButton:pressed {
+    -fx-effect: none;
+}
+
+#accountInfoButton #accountInfoArrow {
+    -fx-background-color: transparent;
+    -fx-graphic: url('/images/Right-Arrow-Black.png');
+}
+
+#accountInfoButton #accountInfoIcon {
+    -fx-background-radius: 6px;
+    -fx-background-color: rgba(0, 0, 0, 0.11);
+    -fx-graphic: url('/images/Account-Info-Black.png');
+}
+
+#accountInfoButton:hover #accountInfoIcon {
+    -fx-background-color: #007AFF;
+    -fx-graphic: url('/images/Account-Info-White.png');
+}
+
+#accountInfoButton .label {
+    -fx-font-size: 10px;
+}
+
+#accountInfoButton #accountInfoText {
+    -fx-text-fill: #8E8E93;
+}
+
+#accountInfoButton #accountInfoHeader {
+    -fx-text-fill: rgba(0, 0, 0, 0.8);
+    -fx-font-family: "Open Sans Bold";
+}
+
+#accountInfoButton:hover {
+    -fx-background-radius: 6px;
+    -fx-background-color: rgba(0, 0, 0, 0.11);
+}
+
+#userPasswordButton #userPasswordArrow {
+    -fx-background-color: transparent;
+    -fx-graphic: url('/images/Right-Arrow-Black.png');
+}
+
+#userPasswordButton #userPasswordIcon {
+    -fx-background-radius: 6px;
+    -fx-background-color: rgba(0, 0, 0, 0.11);
+    -fx-graphic: url('/images/User-Password-Black.png');
+}
+
+#userPasswordButton:hover #userPasswordIcon {
+    -fx-background-color: #007AFF;
+    -fx-graphic: url('/images/User-Password-White.png');
+}
+
+#userPasswordButton .label {
+    -fx-font-size: 10px;
+}
+
+#userPasswordButton #userPasswordText {
+    -fx-text-fill: #8E8E93;
+}
+
+#userPasswordButton #userPasswordHeader {
+    -fx-text-fill: rgba(0, 0, 0, 0.8);
+    -fx-font-family: "Open Sans Bold";
+}
+
+#userPasswordButton:hover {
+    -fx-background-radius: 6px;
+    -fx-background-color: rgba(0, 0, 0, 0.11);
+}
+
+#cardPasswordButton #cardPasswordArrow {
+    -fx-background-color: transparent;
+    -fx-graphic: url('/images/Right-Arrow-Black.png');
+}
+
+#cardPasswordButton #cardPasswordIcon {
+    -fx-background-radius: 6px;
+    -fx-background-color: rgba(0, 0, 0, 0.11);
+    -fx-graphic: url('/images/Card-Password-Black.png');
+}
+
+#cardPasswordButton:hover #cardPasswordIcon {
+    -fx-background-color: #007AFF;
+    -fx-graphic: url('/images/Card-Password-White.png');
+}
+
+#cardPasswordButton .label {
+    -fx-font-size: 10px;
+}
+
+#cardPasswordButton #cardPasswordText {
+    -fx-text-fill: #8E8E93;
+}
+
+#cardPasswordButton #cardPasswordHeader {
+    -fx-text-fill: rgba(0, 0, 0, 0.8);
+    -fx-font-family: "Open Sans Bold";
+}
+
+#cardPasswordButton:hover {
+    -fx-background-radius: 6px;
+    -fx-background-color: rgba(0, 0, 0, 0.11);
+}
+
+#deleteAccountButton #deleteAccountArrow {
+    -fx-background-color: transparent;
+    -fx-graphic: url('/images/Right-Arrow-Black.png');
+}
+
+#deleteAccountButton #deleteAccountIcon {
+    -fx-background-radius: 6px;
+    -fx-background-color: rgba(0, 0, 0, 0.11);
+    -fx-graphic: url('/images/Delete-Account-Black.png');
+}
+
+#deleteAccountButton:hover #deleteAccountIcon {
+    -fx-background-color: #FF453A;
+    -fx-graphic: url('/images/Delete-Account-White.png');
+}
+
+#deleteAccountButton .label {
+    -fx-font-size: 10px;
+}
+
+#deleteAccountButton #deleteAccountText {
+    -fx-text-fill: #8E8E93;
+}
+
+#deleteAccountButton #deleteAccountHeader {
+    -fx-text-fill: rgba(0, 0, 0, 0.8);
+    -fx-font-family: "Open Sans Bold";
+}
+
+#deleteAccountButton:hover {
+    -fx-background-radius: 6px;
+    -fx-background-color: rgba(0, 0, 0, 0.11);
+}

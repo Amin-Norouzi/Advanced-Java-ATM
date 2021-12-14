@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17"
+            xmlns:fx="http://javafx.com/fxml/1">
+    <center>
+        <VBox alignment="CENTER" fillWidth="false" spacing="20.0" BorderPane.alignment="CENTER_LEFT">
+            <children>
+                <HBox alignment="CENTER_LEFT" prefWidth="250.0">
+                    <children>
+                        <Label fx:id="headerLabel" text="Transfer">
+                            <HBox.margin>
+                                <Insets/>
+                            </HBox.margin>
+                        </Label>
+                    </children>
+                    <VBox.margin>
+                        <Insets bottom="10.0"/>
+                    </VBox.margin>
+                </HBox>
+                <TextField fx:id="senderCardNumberField" disable="true" prefHeight="40.0" prefWidth="250.0"
+                           promptText="Sender card number"/>
+                <TextField fx:id="receiverCardNumberField" focusTraversable="false" maxWidth="-Infinity"
+                           prefHeight="40.0" prefWidth="250.0" promptText="Receiver card number"/>
+                <HBox alignment="CENTER_RIGHT" prefWidth="250.0" spacing="10.0">
+                    <children>
+                        <TextField fx:id="amountField" focusTraversable="false" maxWidth="-Infinity" prefHeight="40.0"
+                                   prefWidth="150.0" promptText="Amount"/>
+                        <PasswordField fx:id="passwordField" focusTraversable="false" maxWidth="-Infinity"
+                                       prefHeight="40.0" prefWidth="90.0" promptText="Password"/>
+                    </children>
+                </HBox>
+                <TextArea fx:id="noteField" focusTraversable="false" maxWidth="-Infinity" prefHeight="120.0"
+                          prefWidth="250.0" promptText="Note"/>
+                <HBox alignment="CENTER_RIGHT" prefWidth="250.0" spacing="10.0">
+                    <children>
+                        <Button fx:id="cancelButton" cancelButton="true" focusTraversable="false"
+                                mnemonicParsing="false" onAction="#handleCancel" prefHeight="28.0" prefWidth="80.0"
+                                text="Cancel"/>
+                        <Button fx:id="payButton" defaultButton="true" layoutX="10.0" layoutY="10.0"
+                                mnemonicParsing="false" onAction="#handlePay" prefHeight="28.0" prefWidth="80.0"
+                                text="Pay"/>
+                    </children>
+                    <VBox.margin>
+                        <Insets top="10.0"/>
+                    </VBox.margin>
+                </HBox>
+            </children>
+            <padding>
+                <Insets bottom="15.0" left="15.0" right="15.0" top="15.0"/>
+            </padding>
+        </VBox>
+    </center>
+</BorderPane>

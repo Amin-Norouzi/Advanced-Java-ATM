@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/src/main/java/com/aminnorouzi/atm/database/CardDatabase.java" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/aminnorouzi/atm/database/Database.java" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/aminnorouzi/atm/database/TransactionDatabase.java" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/aminnorouzi/atm/database/UserDatabase.java" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/aminnorouzi/atm/util/QueryUtils.java" dialect="SQLite" />
+    <file url="PROJECT" dialect="SQLite" />
+  </component>
+</project>

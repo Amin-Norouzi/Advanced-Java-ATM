@@ -1,0 +1,93 @@
+.root {
+    -fx-background-color: #FFFFFF;
+    -fx-font-family: "Open Sans SemiBold";
+    -fx-font-size: 12px;
+    -fx-text-background-color:  #8E8E93;
+}
+
+.label {
+    -fx-text-fill: rgba(0, 0, 0, 0.8);
+}
+
+#headerLabel {
+    -fx-font-family: "Open Sans Bold";
+    -fx-font-size: 18px;
+}
+
+#backButton {
+    -fx-animated: none;
+    -fx-effect: none;
+    -fx-background-radius: 6px;
+    -fx-background-color: rgba(0, 0, 0, 0.11);
+    -fx-text-fill: rgba(0, 0, 0, 0.8)
+}
+
+#backButton:hover {
+    -fx-background-color: #E3E3E3;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 25, 0, 0, 5);
+}
+
+#backButton:pressed {
+    -fx-effect: none;
+}
+
+.table-view {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background .filler {
+    -fx-background-color: transparent;
+}
+
+.table-view .corner {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background {
+    -fx-font-family: "Open Sans Bold";
+    -fx-font-size: 12px;
+    -fx-background-color: rgba(0, 0, 0, 0.05);
+    -fx-text-fill: rgba(0, 0, 0, 0.8);
+    -fx-background-radius: 5px;
+    -fx-padding: 5px 0px 5px 0px;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell {
+    -fx-border-color: transparent;
+    -fx-padding: 5px 0px 5px 0px;
+    -fx-alignment: center;
+}
+
+.table-view .table-row-cell:hover {
+    -fx-background-color: rgba(0, 0, 0, 0.05);
+    -fx-background-radius: 5px;
+    -fx-border-color: rgba(0, 0, 0, 0.06);
+    -fx-border-radius: 5px;
+    -fx-text-background-color: rgba(0, 0, 0, 0.8);
+}
+
+.table-view .table-row-cell:pressed {
+    -fx-background-color: #007AFF;
+    -fx-text-background-color: #FFFFFF;
+    -fx-background-radius: 5px;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-border-radius: 5px;
+}
+
+.table-row-cell:even {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-border-radius: 5px;
+}

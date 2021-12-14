@@ -1,0 +1,51 @@
+.root {
+    -fx-background-color: rgba(236, 236, 236, 0.65);
+    -fx-background-radius: 10px;
+    -fx-font-family: "Open Sans SemiBold";
+    -fx-font-size: 12px;
+}
+
+.label {
+    -fx-text-fill: rgba(0, 0, 0, 0.8);
+}
+
+#headerLabel {
+    -fx-font-family: "Open Sans Bold";
+    -fx-font-size: 13px;
+}
+
+#bodyLabel {
+    -fx-font-size: 11px;
+}
+
+#mainButton {
+    -fx-animated: none;
+    -fx-effect: none;
+    -fx-background-radius: 6px;
+    -fx-background-color: #007AFF;
+    -fx-text-fill: #FFFFFF;
+}
+
+#mainButton:hover {
+    -fx-effect: dropshadow(gaussian, rgba(0, 122, 255, 0.4), 25, 0, 0, 5);
+}
+
+#mainButton:pressed {
+    -fx-effect: none;
+}
+
+#closeButton {
+    -fx-animated: none;
+    -fx-effect: none;
+    -fx-background-color: transparent;
+    -fx-background-image: url('/images/Close.png');
+    -fx-background-size: cover;
+}
+
+#closeButton:hover {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 20, 0, 0, 5);
+}
+
+#close:pressed {
+    -fx-effect: none;
+}

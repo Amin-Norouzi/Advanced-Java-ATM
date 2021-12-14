@@ -13,9 +13,9 @@
 
 [![wakatime](https://wakatime.com/badge/user/7d6d4557-a99a-4f61-8a63-7b4f287364a2/project/b627fb28-c3be-4f12-9b97-31099ad51853.svg)](https://wakatime.com/badge/user/7d6d4557-a99a-4f61-8a63-7b4f287364a2/project/b627fb28-c3be-4f12-9b97-31099ad51853)
 
-    <br />
-    <br />
-    <a href="https://github.com/Amin-Norouzi/Advanced-Java-ATM#about-the-project">View Demo</a>
+<br />
+<br />
+   <a href="https://github.com/Amin-Norouzi/Advanced-Java-ATM#about-the-project">View Demo</a>
     ·
     <a href="https://github.com/Amin-Norouzi/Advanced-Java-ATM/issues">Report Bug</a>
     ·
@@ -30,9 +30,11 @@
 
 <div align="center">
 
-![Demo gif](https://github.com/Amin-Norouzi/Advanced-Java-ATM/blob/main/assets/demo.gif)height="80">
+[![Demo gif]](https://github.com/Amin-Norouzi/Advanced-Java-ATM/blob/main/assets/demo.gif)
 
 </div>
+
+<br />
 
 This project was to make an automated teller machine with a modern-looking user interface where users can create an account by entering their full name, username, email, and password. Then if the user information is valid, the program automatically generates a card and shows it to the user.
 Users can pretty much do everything that they can do in a real-world ATM. Users can deposit, withdraw, and transfer money with a few clicks. Users also can view their account balance and transactions history. In the history section, users can decide to save their receipt or not. The program allows users to change their account information, password, and card password. If users forget their account password, they can restore it using common email validation. You can find more about the program below.
@@ -50,8 +52,6 @@ Some of the features: :smile:
 - You can edit your account information.
 - You can delete your account.
 - You can change your account or card password.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
 

@@ -30,7 +30,7 @@
 
 <div align="center">
 
-[![Demo gif]](https://github.com/Amin-Norouzi/Advanced-Java-ATM/blob/main/assets/demo.gif)
+![Demo gif](https://github.com/Amin-Norouzi/Advanced-Java-ATM/blob/main/assets/demo.gif)
 
 </div>
 

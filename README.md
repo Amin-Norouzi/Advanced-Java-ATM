@@ -44,6 +44,8 @@ Users can pretty much do everything that they can do in a real-world ATM. Users 
 <br />
 The program allows users to change their account information, password, and card password. If users forget their account password, they can restore it using common email validation. You can find more about the program below.
 
+<br />
+
 Some of the features: :smile:
 
 - It can check if the internet is available or not.
@@ -57,6 +59,8 @@ Some of the features: :smile:
 - You can edit your account information.
 - You can delete your account.
 - You can change your account or card password.
+
+<br />
 
 ### Built With
 
@@ -114,7 +118,7 @@ _Follow the instruction below to run the program on your device with two clicks.
 
 ## Contact
 
-Amin Norouzi - [Twitter](https://twitter.com/RealAminNorouzi) - [Insgatram](https://www.instagram.com/realaminnorouzi/) -[Email](mailto:realaminnorouzi@gmail.com) - [Linkedin](https://www.linkedin.com/in/amin-norouzi/)
+Amin Norouzi - [Twitter](https://twitter.com/RealAminNorouzi) - [Insgatram](https://www.instagram.com/realaminnorouzi/) - [Email](mailto:realaminnorouzi@gmail.com) - [Linkedin](https://www.linkedin.com/in/amin-norouzi/)
 
 Project Link: [https://github.com/Amin-Norouzi/Advanced-Java-ATM](https://github.com/Amin-Norouzi/Advanced-Java-ATM)
 

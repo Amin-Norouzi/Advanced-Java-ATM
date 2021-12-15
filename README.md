@@ -38,7 +38,9 @@
 
 This project was to make an automated teller machine with a modern-looking user interface where users can create an account by entering their full name, username, email, and password. Then if the user information is valid, the program automatically generates a card and shows it to the user.
 <br />
+<br />
 Users can pretty much do everything that they can do in a real-world ATM. Users can deposit, withdraw, and transfer money with a few clicks. Users also can view their account balance and transactions history. In the history section, users can decide to save their receipt or not.
+<br />
 <br />
 The program allows users to change their account information, password, and card password. If users forget their account password, they can restore it using common email validation. You can find more about the program below.
 

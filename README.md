@@ -84,7 +84,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Email
 
-_In order to use email API, you should change the username and password in EmailUtils class in the util package. Pay attention that your email turn on "Less secure app access" in your google account._
+_In order to use email API, you should change the username and password in EmailUtils class in the util package. Pay attention that you should turn on "Less secure app access" in your google account._
 
 ```java
 private static final String USERNAME = "YOUR_EMAIL_ADDRESS";

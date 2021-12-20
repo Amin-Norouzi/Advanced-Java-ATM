@@ -77,3 +77,11 @@ e
 5src/main/java/com/aminnorouzi/atm/util/PageUtils.java,d\8\d8836ef36789a63fd7a4c4a6758522a1a684f2d5
 s
 Csrc/main/java/com/aminnorouzi/atm/controller/BalanceController.java,e\3\e3084cbd0d8f7f40210768ce885663c637006926
+[
++src/main/java/com/aminnorouzi/atm/Main.java,0\a\0a3d621408bf447eba20655ddd206fa9e6c47eda
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+f
+6src/main/java/com/aminnorouzi/atm/util/EmailUtils.java,2\7\27dd0a569abc8eb6265af941be1af36df1adfd0d
+_
+/src/main/java/com/aminnorouzi/atm/Launcher.java,5\5\5525eec415f7f537a1cc2e7a55b4ee54e13ab396

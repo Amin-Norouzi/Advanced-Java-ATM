@@ -8,7 +8,7 @@
   <h3 align="center">Advanced Java ATM</h3>
 
   <p align="center">
-    ATM simulator program developed with Java, with a modern user interface.
+    ATM simulator program developed in Java, with a modern user interface.
     <br />
 
 [![wakatime](https://wakatime.com/badge/user/7d6d4557-a99a-4f61-8a63-7b4f287364a2/project/b627fb28-c3be-4f12-9b97-31099ad51853.svg)](https://wakatime.com/badge/user/7d6d4557-a99a-4f61-8a63-7b4f287364a2/project/b627fb28-c3be-4f12-9b97-31099ad51853)
